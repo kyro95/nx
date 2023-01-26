@@ -7,7 +7,7 @@ import {
   Tree,
 } from '@nrwl/devkit';
 import { wrapAngularDevkitSchematic } from '@nrwl/devkit/ngcli-adapter';
-import { jestProjectGenerator } from '@nrwl/jest';
+import { jestProjectGenerator } from '@nrwl/jest/generators';
 import { Linter } from '@nrwl/linter';
 import { lt } from 'semver';
 import init from '../../generators/init/init';
